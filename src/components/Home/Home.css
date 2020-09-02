@@ -1,0 +1,121 @@
+.home {
+    background-image: url('../../assets/covid.png');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* header{
+    background-color: #FF4C68;
+    height: 90vh;
+} */
+
+
+/* .navBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.navBar li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navBar a:hover,
+.navBar a.active {
+    color: red;
+} */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__logo {
+    margin-top: 5vh;
+    margin-left: -15px !important;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.nav__covid {
+    margin-left: 1vw;
+    color: #EC3251;
+}
+
+.navBar {
+    margin-top: 5vh;
+    margin-left: 15%;
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.navBar a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.navBar a:hover,
+.navBar a:active {
+    color: #FC9904;
+}
+
+.text-box {
+    position: absolute;
+    width: 1140px;
+    top: 30%;
+    left: 20%;
+}
+
+.text-box h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.home__check {
+    position: relative;
+    margin-top: 65vh;
+    margin-left: 10vw;
+}
+
+Button {
+    background-color: #EC3251 !important;
+    height: 7vh;
+    width: 12vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.5rem !important;
+}
+
+Button a {
+    text-decoration: none;
+    color: white;
+}
+
+Button a:hover {
+    color: #FC9904;
+}
