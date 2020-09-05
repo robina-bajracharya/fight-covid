@@ -7,38 +7,6 @@
     background-position: center;
 }
 
-
-/* header{
-    background-color: #FF4C68;
-    height: 90vh;
-} */
-
-
-/* .navBar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-}
-
-.navBar li {
-    display: inline-block;
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.navBar a {
-    text-decoration: none;
-    color: black;
-}
-
-.navBar a:hover,
-.navBar a.active {
-    color: red;
-} */
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -47,13 +15,14 @@ nav {
 
 .nav__logo {
     margin-top: 5vh;
-    margin-left: -15px !important;
+    margin-left: -2%;
     display: flex;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 3rem;
+    font-size: 200%;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 .nav__covid {
@@ -63,59 +32,90 @@ nav {
 
 .navBar {
     margin-top: 5vh;
-    margin-left: 15%;
+    margin-left: 10%;
     display: flex;
     width: 30vw;
     justify-content: space-around;
     list-style: none;
     text-align: center;
-    font-size: 2rem;
+    font-size: 100%;
 }
 
 .navBar a {
+    padding: 8px 0;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    margin-left: 20px;
 }
 
 .navBar a:hover,
 .navBar a:active {
-    color: #FC9904;
-}
-
-.text-box {
-    position: absolute;
-    width: 1140px;
-    top: 30%;
-    left: 20%;
-}
-
-.text-box h1 {
-    font-size: 50px;
-    font-weight: bolder;
-    color: white;
+    border-bottom: 2px solid #F75868;
 }
 
 .home__check {
     position: relative;
-    margin-top: 65vh;
+    margin-top: 66vh;
     margin-left: 10vw;
 }
 
-Button {
-    background-color: #EC3251 !important;
-    height: 7vh;
-    width: 12vw;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 1.5rem !important;
-}
-
-Button a {
+.btn:link, .btn:visited{
+    display: inline-block;
+    padding: 15px 35px;
+    font-weight: 300;
     text-decoration: none;
+    border-radius: 200px;
     color: white;
+    background-color: #F75868;
+    border: 1px solid #F75868;
+    transition: background-color 0.2s, border 0.2s;
 }
 
-Button a:hover {
-    color: #FC9904;
+.btn:hover, .btn:active{
+    background-color: #f5384b;
+    border: 1px solid #f5384b;
+}
+
+section{
+    margin-top: 170px;
+}
+
+.home__title{
+    text-align: center;
+    font-size: 150%;;
+    font-weight: 50;
+    margin-bottom: 30px;
+}
+
+.home__title h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 140%;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #2A1774;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.news{
+    margin-top: 80px !important;
+}
+
+.pic{
+    width: 40px;
+    margin-left: 10px;
+}
+
+footer{
+    margin-top: 150px;
 }
