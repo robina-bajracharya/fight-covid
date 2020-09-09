@@ -7,13 +7,13 @@
     background-position: center;
 }
 
-nav {
+.home__navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.nav__logo {
+.home__logo {
     margin-top: 5vh;
     margin-left: -2%;
     display: flex;
@@ -25,12 +25,12 @@ nav {
     text-decoration: none;
 }
 
-.nav__covid {
+.home__covid {
     margin-left: 1vw;
     color: #EC3251;
 }
 
-.navBar {
+.home__navBar {
     margin-top: 5vh;
     margin-left: 10%;
     display: flex;
@@ -38,10 +38,10 @@ nav {
     justify-content: space-around;
     list-style: none;
     text-align: center;
-    font-size: 100%;
+    font-size: 150%;
 }
 
-.navBar a {
+.home__navBar a {
     padding: 8px 0;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -49,8 +49,8 @@ nav {
     margin-left: 20px;
 }
 
-.navBar a:hover,
-.navBar a:active {
+.home__navBar a:hover,
+.home__navBar a:active {
     border-bottom: 2px solid #F75868;
 }
 
@@ -60,7 +60,8 @@ nav {
     margin-left: 10vw;
 }
 
-.btn:link, .btn:visited{
+.btn:link,
+.btn:visited {
     display: inline-block;
     padding: 15px 35px;
     font-weight: 300;
@@ -72,23 +73,24 @@ nav {
     transition: background-color 0.2s, border 0.2s;
 }
 
-.btn:hover, .btn:active{
+.btn:hover,
+.btn:active {
     background-color: #f5384b;
     border: 1px solid #f5384b;
 }
 
-section{
+section {
     margin-top: 170px;
 }
 
-.home__title{
+.home__title {
     text-align: center;
-    font-size: 150%;;
+    font-size: 150%;
     font-weight: 50;
     margin-bottom: 30px;
 }
 
-.home__title h2{
+.home__title h2 {
     font-weight: 300;
     text-transform: uppercase;
     font-size: 140%;
@@ -107,15 +109,26 @@ h2:after {
     margin-top: 30px;
 }
 
-.news{
+.news {
     margin-top: 80px !important;
 }
 
-.pic{
+.pic {
     width: 40px;
     margin-left: 10px;
 }
 
-footer{
+footer {
     margin-top: 150px;
+}
+
+@media screen and (min-width:1365) {
+    .home__title {
+        text-align: center;
+        font-size: 150%;
+        ;
+        font-weight: 50;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
 }

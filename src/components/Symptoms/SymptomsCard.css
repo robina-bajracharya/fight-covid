@@ -1,0 +1,34 @@
+.symptomsCard__detail {
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    box-shadow: 10px #888888;
+    border-right: 1px solid #d4d3cf;
+    border-left: 1px solid #d4d3cf;
+    border-bottom: 1px solid #d4d3cf;
+    margin-bottom: 5vh;
+}
+
+img {
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.symptomsCard__content {
+    margin-top: 5%;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1%;
+}
+
+.symptomsCard__content>h3 {
+    color: #EC3251;
+    font-size: 200% !important;
+}
+
+.symptomsCard__content>p {
+    margin-top: 2%;
+    font-size: 150%;
+    text-justify: auto;
+}

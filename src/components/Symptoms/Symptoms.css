@@ -1,0 +1,35 @@
+.symptoms__header {
+    background-image: url('../../assets/symptoms.svg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.symtoms__section {
+    margin-top: none !important;
+}
+
+.symptoms__title {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 50;
+    margin-bottom: 30px;
+}
+
+.symptoms__title h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 140%;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.symptoms__page {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 80px;
+}

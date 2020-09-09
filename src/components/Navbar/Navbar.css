@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__logo {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 200%;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.nav__covid {
+    margin-left: 1vw;
+    color: #EC3251;
+}
+
+.navBar {
+    margin-top: 5vh;
+    margin-left: 10%;
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    font-size: 150%;
+}
+
+.navBar a {
+    padding: 8px 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #EC3251;
+    margin-left: 20px;
+}
+
+.navBar a:hover,
+.navBar a:active {
+    border-bottom: 2px solid #F75868;
+}
+
+.home__check {
+    position: relative;
+    margin-top: 66vh;
+    margin-left: 10vw;
+}

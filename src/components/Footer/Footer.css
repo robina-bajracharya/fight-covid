@@ -1,45 +1,32 @@
-.footer{
-    background-image: url('../../assets/wall.jpg');
-    background-size: cover;
-    background-position: center;
+.footer {
+    background-color: #301982;
     height: 400px;
 }
 
-.footer__icons{
+.footer__icons {
+    display: flex;
     height: 300px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.txt{
+.footer__people,
+.footer__house,
+.footer__hands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt {
     margin-top: 30px;
-    position: absolute;
-    left: 11.5%;
     color: white;
     font-weight: bolder;
     font-size: 200%;
     font-family: 'Montserrat', sans-serif;
 }
 
-.txt1{
-    margin-top: 30px;
-    position: absolute;
-    left: 43%;
-    color: white;
-    font-weight: bolder;
-    font-size: 200%;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.txt2{
-    margin-top: 30px;
-    position: absolute;
-    left: 73%;
-    color: white;
-    font-weight: bolder;
-    font-size: 200%;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.footer__credits{
+.footer__credits {
     margin-top: 50px;
     position: absolute;
     left: 39%;
@@ -47,4 +34,3 @@
     font-family: 'Montserrat', sans-serif;
     opacity: 0.9;
 }
-
