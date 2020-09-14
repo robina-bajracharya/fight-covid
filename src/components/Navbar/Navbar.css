@@ -6,6 +6,7 @@
 
 .nav__logo {
     margin-top: 5vh;
+    margin-left: 4%;
     display: flex;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
@@ -20,18 +21,18 @@
     color: #EC3251;
 }
 
-.navBar {
+.navRight {
     margin-top: 5vh;
-    margin-left: 10%;
+    margin-left: 35%;
     display: flex;
-    width: 50vw;
+    width: 30vw;
     justify-content: space-around;
     list-style: none;
     text-align: center;
-    font-size: 150%;
+    font-size: 105%;
 }
 
-.navBar a {
+.navRight a {
     padding: 8px 0;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -39,13 +40,7 @@
     margin-left: 20px;
 }
 
-.navBar a:hover,
-.navBar a:active {
+.navRight a:hover,
+.navRight a:active {
     border-bottom: 2px solid #F75868;
-}
-
-.home__check {
-    position: relative;
-    margin-top: 66vh;
-    margin-left: 10vw;
 }

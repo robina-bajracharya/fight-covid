@@ -5,7 +5,7 @@
 
 .footer__icons {
     display: flex;
-    height: 300px;
+    height: 370px;
     justify-content: space-around;
     align-items: center;
 }
@@ -27,7 +27,6 @@
 }
 
 .footer__credits {
-    margin-top: 50px;
     position: absolute;
     left: 39%;
     color: white;

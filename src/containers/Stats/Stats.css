@@ -13,6 +13,7 @@ body{
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
+  margin-top: 20px;
 }
 
 .app__dropdown {
@@ -24,8 +25,11 @@ body{
 }
 
 .app__graphTitle{
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
 .app__header {
@@ -36,8 +40,11 @@ body{
 }
 
 .app__header > h1 {
-  color: #fc3c3c;
+  color: #301982;
   font-size: 2rem;
+  border-top: 3px solid silver;
+  border-bottom: 3px solid silver;
+  padding: 10px;
 }
 
 .app__stats{
@@ -49,8 +56,81 @@ body{
   flex: 0.9;
 }
 
+.app__cardTitle{
+  margin-top: 10px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.app__right{
+  width: 440px;
+}
+
 @media (max-width: 990px){
   .app{
     flex-direction: column;
   }
+}
+
+.app__cardHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardBox{
+  background-color: white;
+  width: 120px;
+}
+
+.stats__navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #301982;
+  height: 70px;
+}
+
+.stats__logo {
+  margin-top: 0vh;
+  margin-left: 1%;
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 200%;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.stats__covid {
+  margin-left: 1vw;
+  color: #EC3251;
+}
+
+.stats__navRight {
+  margin-top: 2vh;
+  margin-left: 40%;
+  display: flex;
+  width: 30vw;
+  justify-content: space-around;
+  list-style: none;
+  text-align: center;
+  font-size: 100%;
+}
+
+.stats__navRight a {
+  padding: 8px 0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-left: 20px;
+}
+
+.stats__navRight a:hover,
+.stats__navRight a:active {
+  border-bottom: 2px solid #F75868;
+}
+
+.bottomnav{
+  height: 150px;
 }

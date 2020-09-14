@@ -4,3 +4,44 @@
     background-size: cover;
     height: 100vh;
 }
+
+.prevention__hero {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 12vh;
+    margin-left: 9vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.prevention__first {
+    margin-top: 5vh;
+    font-size: 500%;
+    font-weight: 800;
+    word-spacing: 10px;
+}
+
+.prevention__second {
+    margin-top: 1vh;
+    font-size: 500%;
+    font-weight: 800;
+    word-spacing: 10px;
+}
+
+.prevention__third {
+    margin-top: 2vh;
+    font-size: 125%;
+    font-weight: 300;
+    word-spacing: 10px;
+    color: #FC9904;
+    width: 40vw;
+}
+
+.preventionInfo {
+    margin-top: 50px !important;
+}
+
+.prev {
+    width: 40px;
+    margin-left: 2px;
+}

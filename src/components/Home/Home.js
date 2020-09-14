@@ -21,33 +21,52 @@ const Home = () => {
         href = "/" >
         <
         div className = "home___fight" > Fight < /div>{" "} <
-        div className = "home__covid" > Covid. < /div>{" "} < /
-        a > { " " } <
+        div className = "home__covid" > Covid. < /div>{" "} <
+        /a>{" "} <
         ul className = "home__navBar" >
         <
         li >
         <
-        NavLink to = "/stats" > Data & Statistics < /NavLink>{" "} < /
-        li > { " " } <
+        NavLink to = "/stats" > Data & Statistics < /NavLink>{" "} <
+        /li>{" "} <
         li >
         <
-        NavLink to = "/symptoms" > Symptoms < /NavLink>{" "} < /
-        li > { " " } <
+        NavLink to = "/symptoms" > Symptoms < /NavLink>{" "} <
+        /li>{" "} <
         li >
         <
-        NavLink to = "/prevention" > Prevention < /NavLink>{" "} < /
-        li > { " " } <
-        /ul>{" "} < /
-        div > <
+        NavLink to = "/prevention" > Prevention < /NavLink>{" "} <
+        /li>{" "} <
+        /ul>{" "} <
+        /div> <
         /nav>{" "} <
-        div className = "home__check" >
+        div className = "home__hero" >
+        <
+        div className = "home__first" >
+        Get Well Soon, Earth!
+        <
+        /div> <
+        div className = "home__second" >
+        Let 's Help Our  <
+        /div> <
+        div className = "home__third" >
+        Earth Recover!
+        <
+        /div> <
+        div className = "home__fourth" >
+        Check out the current country and global data on COVID - 19. <
+        /div> <
+        div className = "home__checkdata" >
         <
         a href = "/stats"
         className = "btn" >
-        View Data { " " } <
-        /a>{" "} < /
-        div > { " " } <
-        /header>{" "} <
+        View Data <
+        /a> <
+        /div> <
+        /div>
+
+        <
+        /header> <
         section >
         <
         Grid container >
@@ -55,11 +74,12 @@ const Home = () => {
         Grid item xs = "12"
         className = "home__title" >
         <
-        h2 > { " " }
+        h2 >
+
         Latest news < img src = { pic }
         className = "pic" / > { " " } <
-        /h2>{" "} < /
-        Grid > { " " } <
+        /h2> <
+        /Grid> <
         Grid item container className = "news" >
         <
         Grid item xs = "0"
@@ -70,19 +90,19 @@ const Home = () => {
         <
         Content / >
         <
-        /Grid>{" "} <
+        /Grid> <
         Grid item xs = "0"
         sm = "2" / >
         <
-        /Grid>{" "} < /
-        Grid > { " " } <
-        /section>{" "} <
+        /Grid> <
+        /Grid> <
+        /section> <
         footer >
         <
         Footer / >
         <
-        /footer>{" "} < /
-        div >
+        /footer> <
+        /div>
     );
 };
 

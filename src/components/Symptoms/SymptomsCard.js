@@ -15,8 +15,8 @@ function SymptomsCard({ photo, symptom, descriptions }) {
         <
         h3 > { symptom } < /h3> <p> {descriptions} </p >
         <
-        /div> <
-        /div> <
+        /div> < /
+        div > <
         /div>
     );
 }

@@ -1,7 +1,6 @@
 .home {
-    background-image: url('../../assets/covid.png');
+    background-image: url('../../assets/homepage.svg');
     height: 100vh;
-    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -38,7 +37,7 @@
     justify-content: space-around;
     list-style: none;
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
 }
 
 .home__navBar a {
@@ -54,11 +53,59 @@
     border-bottom: 2px solid #F75868;
 }
 
-.home__check {
+.home__hero {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 12vh;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__first {
+    border-radius: 20px;
+    background-color: #5E29BD;
+    width: 18vw;
+    height: 7vh;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.home__second {
+    margin-top: 3vh;
+    font-size: 500%;
+    font-weight: 800;
+    word-spacing: 10px;
+}
+
+.home__third {
+    margin-top: 1vh;
+    font-size: 500%;
+    font-weight: 800;
+    word-spacing: 10px;
+}
+
+.home__fourth {
+    margin-top: 2vh;
+    font-size: 200%;
+    font-weight: 300;
+    word-spacing: 10px;
+    color: #FC9904;
+    width: 40vw;
+}
+
+.home__checkdata {
+    margin-top: 3vh;
+}
+
+
+/* .home__check {
     position: relative;
     margin-top: 66vh;
     margin-left: 10vw;
-}
+} */
 
 .btn:link,
 .btn:visited {
@@ -80,7 +127,7 @@
 }
 
 section {
-    margin-top: 170px;
+    margin-top: 25vh;
 }
 
 .home__title {
@@ -122,13 +169,81 @@ footer {
     margin-top: 150px;
 }
 
-@media screen and (min-width:1365) {
-    .home__title {
-        text-align: center;
+@media only screen and (max-width:1270px) {
+    .home__first {
+        border-radius: 10px;
+        background-color: #5E29BD;
+        width: 18vw;
+        height: 7vh;
+        font-weight: bold;
         font-size: 150%;
-        ;
-        font-weight: 50;
-        margin-bottom: 30px;
-        margin-top: 30px;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width:1256px) {
+    .home__first {
+        border-radius: 10px;
+        background-color: #5E29BD;
+        width: 18vw;
+        height: 7vh;
+        font-weight: bold;
+        font-size: 120%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .home__second {
+        margin-top: 3vh;
+        font-size: 450%;
+        font-weight: 700;
+        word-spacing: 5px;
+    }
+    .home__third {
+        margin-top: 1vh;
+        font-size: 450%;
+        font-weight: 700;
+        word-spacing: 5px;
+    }
+    .home__fourth {
+        margin-top: 2vh;
+        font-size: 150%;
+        font-weight: 200;
+        word-spacing: 5px;
+        color: #FC9904;
+        width: 40vw;
+    }
+    .home__logo {
+        margin-top: 5vh;
+        margin-left: -2%;
+        display: flex;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 150%;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    .home__covid {
+        margin-left: 1vw;
+        color: #EC3251;
+    }
+    .home__navBar {
+        margin-top: 5vh;
+        margin-left: 10%;
+        display: flex;
+        width: 30vw;
+        justify-content: space-around;
+        list-style: none;
+        text-align: center;
+        font-size: 75%;
+    }
+}
+
+@media only screen and (max-width:1130px) {}
+
+@media only screen and (max-width: 1000px) {
+    .home__navbar {
+        margin-right: 100px;
     }
 }

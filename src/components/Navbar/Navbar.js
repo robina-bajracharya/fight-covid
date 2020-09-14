@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import './Navbar.css';
+import "./Navbar.css";
 
 function Navbar() {
     return ( <
@@ -12,7 +12,7 @@ function Navbar() {
         div className = "nav___fight" > Fight < /div> <
         div className = "nav__covid" > Covid. < /div> <
         /a> <
-        ul className = "navBar" >
+        ul className = "navRight" >
         <
         li >
         <

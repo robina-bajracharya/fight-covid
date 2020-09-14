@@ -1,6 +1,6 @@
 .symptomsCard__detail {
-    height: 20vh;
-    width: 30vw;
+    height: 30vh;
+    width: 40vw;
     display: flex;
     box-shadow: 10px #888888;
     border-right: 1px solid #d4d3cf;
@@ -24,11 +24,11 @@ img {
 
 .symptomsCard__content>h3 {
     color: #EC3251;
-    font-size: 200% !important;
+    font-size: 150% !important;
 }
 
 .symptomsCard__content>p {
     margin-top: 2%;
-    font-size: 150%;
+    font-size: 110%;
     text-justify: auto;
 }
