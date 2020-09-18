@@ -2,7 +2,7 @@ export default [
     {
       title: "WHO Director-General's opening remarks at the media briefing on COVID-19",
       description:
-        "COVID-19 spreads very efficiently among clusters of people. In many countries, we have seen explosive outbreaks linked to gatherings of people at stadiums, nightclubs, places of worship and in other crowds. ",
+        "COVID-19 spreads very efficiently among clusters of people. In many countries, we have seen explosive outbreaks linked to gatherings of people at stadiums, nightclubs, places of worship and in others. ",
       imageUrl:
         "https://www.who.int/images/default-source/people/who-people/director-general/dr-tedros/hq-dr-tedros-unog-presser-07feb2018-0216.tmb-1920v.jpg?sfvrsn=544ac8ad_2",
       webUrl: 
@@ -36,7 +36,7 @@ export default [
         "https://www.9news.com.au/national/coronavirus-victoria-update-81-new-cases-covid19-59-deaths-latest-numbers/0cbf8164-ace1-4d63-848d-98499906712e"
     },
     {
-      title: "India coronavirus numbers explained: Why over 1,000",
+      title: "India coronavirus numbers explained: Why over 1,000 cases",
       description:
         "As many as 67 per cent of all Covid deaths were due to patients reporting at the health facility for the first time after suffering severe signs and symptoms… these cases then become difficult to manage, leading to fatality,",
       imageUrl:
@@ -45,9 +45,9 @@ export default [
         "https://indianexpress.com/article/explained/india-coronavirus-covid-19-cases-deaths-numbers-explained-september-3-punjab-maharashtra-karnataka-uttar-pradesh-6581279/"
     },
     {
-      title: "Coronavirus (COVID-19) Update: Daily Roundup",
+      title: "Coronavirus (COVID-19) Update: Daily Roundup of cases",
       description:
-        'The U.S. Food and Drug Administration (FDA) continued to take action in the ongoing response to the COVID-19 pandemic: The FDA’s COVID-19-related consumer updates are now available',
+        'The U.S. Food and Drug Administration (FDA) continued to take action in the ongoing response to the COVID-19 pandemic: The FDA’s COVID-19-related consumer updates are now available in at least five languages.',
       imageUrl:
         "https://www.agrilinks.org/sites/default/files/covid-19_1.jpg",
       webUrl:

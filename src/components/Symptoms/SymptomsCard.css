@@ -32,3 +32,32 @@ img {
     font-size: 110%;
     text-justify: auto;
 }
+
+@media only screen and (max-width:1112px){
+    .symptomsCard__detail{
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width:960px){
+    .symptomsCard__detail{
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .symptomsCard__content>h3 {
+        font-size: 140% !important;
+    }
+    
+    .symptomsCard__content>p {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width:460px){
+    .symptomsCard__detail{
+        width: 90vw;
+    }
+}
+

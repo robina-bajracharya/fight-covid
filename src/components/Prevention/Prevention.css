@@ -9,7 +9,7 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     margin-top: 12vh;
-    margin-left: 9vw;
+    margin-left: 6.5vw;
     display: flex;
     flex-direction: column;
 }
@@ -44,4 +44,63 @@
 .prev {
     width: 40px;
     margin-left: 2px;
+}
+
+@media only screen and (max-width: 970px){
+    .prevention__first{
+        font-size: 450%;
+    }
+
+    .prevention__second{
+        font-size: 450%;
+    }
+}
+
+@media only screen and (max-width: 860px){
+    .prevention__hero{
+        margin-left: 2vw;
+    }   
+
+    .prevention__first{
+        font-size: 400%;
+    }
+
+    .prevention__second{
+        font-size: 400%;
+    }
+
+    .prevention__third{
+        font-size: 110%;
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .prevention__first{
+        font-size: 350%;
+    }
+
+    .prevention__second{
+        font-size: 350%;
+    }
+
+    .prevention__third{
+        font-size: 100%;
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .prevention__first{
+        font-size: 370%;
+    }
+
+    .prevention__second{
+        font-size: 370%;
+    }
+
+    .prevention__third{
+        font-size: 130%;
+        width: 90vw;
+    }
 }

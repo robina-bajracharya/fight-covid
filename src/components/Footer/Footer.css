@@ -27,9 +27,20 @@
 }
 
 .footer__credits {
-    position: absolute;
-    left: 39%;
+    width: 100%;
+    text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
     opacity: 0.9;
 }
+
+@media only screen and (max-width:900px){
+    .footer {
+        height: 650px;
+    }
+    .footer__icons{
+        flex-direction: column;
+        height: 600px;
+    }
+}
+

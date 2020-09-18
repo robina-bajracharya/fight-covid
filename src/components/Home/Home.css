@@ -14,7 +14,7 @@
 
 .home__logo {
     margin-top: 5vh;
-    margin-left: -2%;
+    margin-left: -1%;
     display: flex;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
@@ -65,47 +65,40 @@
 .home__first {
     border-radius: 20px;
     background-color: #5E29BD;
-    width: 18vw;
+    width: 20vw;
     height: 7vh;
     font-weight: bold;
     font-size: 150%;
     text-align: center;
-    padding-top: 10px;
+    padding: 7px;
 }
 
 .home__second {
     margin-top: 3vh;
-    font-size: 500%;
+    font-size: 450%;
     font-weight: 800;
-    word-spacing: 10px;
+    word-spacing: 5px;
 }
 
 .home__third {
     margin-top: 1vh;
-    font-size: 500%;
+    font-size: 450%;
     font-weight: 800;
-    word-spacing: 10px;
+    word-spacing: 5px;
 }
 
 .home__fourth {
     margin-top: 2vh;
-    font-size: 200%;
+    font-size: 150%;
     font-weight: 300;
-    word-spacing: 10px;
+    word-spacing: 5px;
     color: #FC9904;
     width: 40vw;
 }
 
 .home__checkdata {
-    margin-top: 3vh;
+    margin-top: 3.5vh;
 }
-
-
-/* .home__check {
-    position: relative;
-    margin-top: 66vh;
-    margin-left: 10vw;
-} */
 
 .btn:link,
 .btn:visited {
@@ -220,7 +213,7 @@ footer {
         align-items: center;
         font-family: 'Montserrat', sans-serif;
         color: white;
-        font-size: 150%;
+        font-size: 190%;
         font-weight: bolder;
         text-decoration: none;
     }
@@ -236,14 +229,141 @@ footer {
         justify-content: space-around;
         list-style: none;
         text-align: center;
-        font-size: 75%;
+        font-size: 90%;
     }
 }
 
-@media only screen and (max-width:1130px) {}
-
-@media only screen and (max-width: 1000px) {
-    .home__navbar {
-        margin-right: 100px;
+@media only screen and (max-width:1150px) {
+    .home__navBar{
+        font-size: 80%;
     }
 }
+
+@media only screen and (max-width:1090px) {
+   .home__first{
+       width:20vw;
+   }
+}
+
+
+@media only screen and (max-width: 1040px) {
+    .home__first{
+        width:25vw;
+    }
+
+    .home__second{
+        font-size: 400%;
+    }
+    .home__third{
+        font-size: 400%;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .home__second{
+        font-size: 350%;
+    }
+    .home__third{
+        font-size: 350%;
+    }
+    .home__fourth{
+        font-size: 130%;
+    }
+    .home__logo{
+        margin-left: -7%;
+    }
+    .home__hero{
+        margin-left: 4vw;
+    }
+    .home__navBar{
+        width: 40vw;
+    }
+ }
+
+ @media only screen and (max-width:790px) {
+    .home__first{
+        font-size: 110%;
+        width: 30vw;
+    }
+    .home__second{
+        font-size: 340%;
+    }
+    .home__third{
+        font-size: 340%;
+    }
+    .home__fourth{
+        font-size: 120%;
+    }
+    .home__navBar{
+        width: 50vw;
+    }
+    .home__logo{
+        margin-left: 0%;
+    }
+ }
+
+ @media only screen and (max-width:600px) {
+    .home__first{
+        width:35vw;
+        font-size: 100%;
+    }
+    .home__second{
+        font-size: 300%;
+    }
+    .home__third{
+        font-size: 300%;
+    }
+    .home__fourth{
+        font-size: 100%;
+    }
+    .home__navBar{
+        width: 60vw;
+    }
+ }
+
+ @media only screen and (max-width:450px) {
+    .home__first{
+        width:40vw;
+    }
+    .home__second{
+        font-size: 270%;
+    }
+    .home__third{
+        font-size: 270%;
+    }
+    .home__fourth{
+        font-size: 100%;
+    }
+ }
+
+ @media only screen and (max-width:420px){
+    .home__logo{
+        margin-left: 2%;
+        font-size: 150%;
+    }
+
+    .home__navBar{
+        margin-left: 2%;
+    }
+    .home__navBar a{
+        margin-left: 10px;
+    }
+    .home__first{
+        width: 50vw;
+        font-size: 150%;
+    }
+    .home__second{
+        font-size: 320%;
+    }
+    .home__third{
+        font-size: 320%;
+    }
+    .home__fourth{
+        font-size: 140%;
+        width: 70vw;
+    }
+    section{
+        margin-top: 45vh;
+    }
+ }
+
