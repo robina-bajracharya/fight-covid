@@ -17,7 +17,7 @@
 }
 
 .nav__fight {
-    color:white;
+    color: white;
 }
 
 .nav__covid {
@@ -48,55 +48,77 @@
     border-bottom: 2px solid #F75868;
 }
 
-@media only screen and (max-width: 800px){
-    .nav__logo{
+@media only screen and (max-width: 800px) {
+    .nav__logo {
         margin-left: -3%;
     }
-    .navRight{
+    .navRight {
         font-size: 90%;
     }
- }
+}
 
- @media only screen and (max-width: 700px){
-    .nav__logo{
+@media only screen and (max-width: 700px) {
+    .nav__logo {
         margin-left: 3%;
     }
-
-    .navRight{
+    .navRight {
         margin-left: 10%;
     }
- }
+}
 
- @media only screen and (max-width:670px){
-    .nav__logo{
+@media only screen and (max-width:670px) {
+    .nav__logo {
         margin-left: -10%;
     }
-    .navRight{
+    .navRight {
         margin-left: -10%;
     }
- }
+}
 
- @media only screen and (max-width: 562px){
-    .nav__logo{
-        margin-left: -5%;
-        font-size: 150%;
+@media only screen and (max-width: 650px) {
+    .nav__logo {
+        margin-left: 4%;
+        font-size: 175%;
     }
-    .navRight{
+    .navRight {
+        margin-left: 0%;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 562px) {
+    .nav__logo {
+        margin-left: 1%;
+        font-size: 140%;
+    }
+    .navRight {
         font-size: 80%;
+        width: 250px;
+        margin-left: -2%;
     }
- }
- 
- @media only screen and (max-width: 420px){
-    .nav__logo{
+}
+
+@media only screen and (max-width: 420px) {
+    .nav__logo {
         margin-left: 0%;
         font-size: 140%;
     }
-    .navRight{
+    .navRight {
         margin-left: 5%;
     }
-    .navRight a{
+    .navRight a {
         margin-left: 10px;
     }
- }
+}
 
-
+@media only screen and (max-width: 420px) {
+    .nav__logo {
+        font-size: 100%;
+        margin-left: 2%;
+    }
+    .navRight {
+        font-size: 75%;
+        margin-left: 0%;
+        width: 400px;
+    }
+}

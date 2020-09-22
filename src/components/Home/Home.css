@@ -1,5 +1,5 @@
 .home {
-    background-image: url('../../assets/homepage.svg');
+    background-image: url("../../assets/homepage.svg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +17,7 @@
     margin-left: -1%;
     display: flex;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: white;
     font-size: 200%;
     font-weight: bolder;
@@ -26,7 +26,7 @@
 
 .home__covid {
     margin-left: 1vw;
-    color: #EC3251;
+    color: #ec3251;
 }
 
 .home__navBar {
@@ -43,19 +43,19 @@
 .home__navBar a {
     padding: 8px 0;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: white;
     margin-left: 20px;
 }
 
 .home__navBar a:hover,
 .home__navBar a:active {
-    border-bottom: 2px solid #F75868;
+    border-bottom: 2px solid #f75868;
 }
 
 .home__hero {
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-top: 12vh;
     margin-left: 10vw;
     display: flex;
@@ -64,7 +64,7 @@
 
 .home__first {
     border-radius: 20px;
-    background-color: #5E29BD;
+    background-color: #5e29bd;
     width: 20vw;
     height: 7vh;
     font-weight: bold;
@@ -92,7 +92,7 @@
     font-size: 150%;
     font-weight: 300;
     word-spacing: 5px;
-    color: #FC9904;
+    color: #fc9904;
     width: 40vw;
 }
 
@@ -108,8 +108,8 @@
     text-decoration: none;
     border-radius: 200px;
     color: white;
-    background-color: #F75868;
-    border: 1px solid #F75868;
+    background-color: #f75868;
+    border: 1px solid #f75868;
     transition: background-color 0.2s, border 0.2s;
 }
 
@@ -142,7 +142,7 @@ section {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #2A1774;
+    background-color: #2a1774;
     content: " ";
     width: 200px;
     margin: 0 auto;
@@ -162,10 +162,10 @@ footer {
     margin-top: 150px;
 }
 
-@media only screen and (max-width:1270px) {
+@media only screen and (max-width: 1270px) {
     .home__first {
         border-radius: 10px;
-        background-color: #5E29BD;
+        background-color: #5e29bd;
         width: 18vw;
         height: 7vh;
         font-weight: bold;
@@ -175,10 +175,10 @@ footer {
     }
 }
 
-@media only screen and (max-width:1256px) {
+@media only screen and (max-width: 1256px) {
     .home__first {
         border-radius: 10px;
-        background-color: #5E29BD;
+        background-color: #5e29bd;
         width: 18vw;
         height: 7vh;
         font-weight: bold;
@@ -203,7 +203,7 @@ footer {
         font-size: 150%;
         font-weight: 200;
         word-spacing: 5px;
-        color: #FC9904;
+        color: #fc9904;
         width: 40vw;
     }
     .home__logo {
@@ -211,7 +211,7 @@ footer {
         margin-left: -2%;
         display: flex;
         align-items: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
         color: white;
         font-size: 190%;
         font-weight: bolder;
@@ -219,7 +219,7 @@ footer {
     }
     .home__covid {
         margin-left: 1vw;
-        color: #EC3251;
+        color: #ec3251;
     }
     .home__navBar {
         margin-top: 5vh;
@@ -233,137 +233,180 @@ footer {
     }
 }
 
-@media only screen and (max-width:1150px) {
-    .home__navBar{
+@media only screen and (max-width: 1150px) {
+    .home__navBar {
         font-size: 80%;
     }
 }
 
-@media only screen and (max-width:1090px) {
-   .home__first{
-       width:20vw;
-   }
+@media only screen and (max-width: 1090px) {
+    .home__first {
+        width: 20vw;
+    }
 }
-
 
 @media only screen and (max-width: 1040px) {
-    .home__first{
-        width:25vw;
+    .home__first {
+        width: 25vw;
     }
-
-    .home__second{
+    .home__second {
         font-size: 400%;
     }
-    .home__third{
+    .home__third {
         font-size: 400%;
     }
 }
 
-@media only screen and (max-width:850px) {
-    .home__second{
+@media only screen and (max-width: 850px) {
+    .home__second {
         font-size: 350%;
     }
-    .home__third{
+    .home__third {
         font-size: 350%;
     }
-    .home__fourth{
+    .home__fourth {
         font-size: 130%;
     }
-    .home__logo{
+    .home__logo {
         margin-left: -7%;
     }
-    .home__hero{
+    .home__hero {
         margin-left: 4vw;
     }
-    .home__navBar{
+    .home__navBar {
         width: 40vw;
     }
- }
+}
 
- @media only screen and (max-width:790px) {
-    .home__first{
+@media only screen and (max-width: 790px) {
+    .home__first {
         font-size: 110%;
         width: 30vw;
     }
-    .home__second{
+    .home__second {
         font-size: 340%;
     }
-    .home__third{
+    .home__third {
         font-size: 340%;
     }
-    .home__fourth{
+    .home__fourth {
         font-size: 120%;
     }
-    .home__navBar{
+    .home__navBar {
         width: 50vw;
     }
-    .home__logo{
+    .home__logo {
         margin-left: 0%;
     }
- }
+}
 
- @media only screen and (max-width:600px) {
-    .home__first{
-        width:35vw;
+@media only screen and (max-width: 650px) {
+    .home {
+        background-image: url("../../assets/homepage640.svg");
+    }
+    .home__logo {
+        font-size: 140%;
+    }
+    .home__navBar {
+        font-size: 80%;
+        width: 250px;
+        margin-left: -2%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home__first {
+        width: 35vw;
         font-size: 100%;
     }
-    .home__second{
+    .home__second {
         font-size: 300%;
     }
-    .home__third{
+    .home__third {
         font-size: 300%;
     }
-    .home__fourth{
+    .home__fourth {
         font-size: 100%;
     }
-    .home__navBar{
+    .home__navBar {
         width: 60vw;
     }
- }
+}
 
- @media only screen and (max-width:450px) {
-    .home__first{
-        width:40vw;
+@media only screen and (max-width: 450px) {
+    .home__first {
+        width: 40vw;
     }
-    .home__second{
+    .home__second {
         font-size: 270%;
     }
-    .home__third{
+    .home__third {
         font-size: 270%;
     }
-    .home__fourth{
+    .home__fourth {
         font-size: 100%;
     }
- }
+}
 
- @media only screen and (max-width:420px){
-    .home__logo{
+@media only screen and (max-width: 420px) {
+    .home__logo {
         margin-left: 2%;
         font-size: 150%;
     }
-
-    .home__navBar{
+    .home__navBar {
         margin-left: 2%;
     }
-    .home__navBar a{
+    .home__navBar a {
         margin-left: 10px;
     }
-    .home__first{
+    .home__first {
         width: 50vw;
         font-size: 150%;
     }
-    .home__second{
+    .home__second {
         font-size: 320%;
     }
-    .home__third{
+    .home__third {
         font-size: 320%;
     }
-    .home__fourth{
+    .home__fourth {
         font-size: 140%;
         width: 70vw;
     }
-    section{
+    section {
         margin-top: 45vh;
     }
- }
+}
 
+@media only screen and (max-width: 360px) {
+    .home {
+        background-image: url("../../assets/homepage360.svg");
+    }
+    .home__first,
+    .home__second,
+    .home__third,
+    .home__fourth {
+        display: none;
+    }
+    .home__logo {
+        font-size: 100%;
+        margin-left: 2%;
+    }
+    .home__navBar {
+        font-size: 75%;
+        margin-left: 0%;
+        width: 400px;
+    }
+    section {
+        margin-top: 40vh;
+    }
+    .home__checkdata {
+        margin-top: 40vh;
+    }
+    .btn:link,
+    .btn:visited {
+        padding: 10px 20px;
+        font-weight: bold;
+        border-radius: 150px;
+    }
+}

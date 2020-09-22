@@ -1,106 +1,133 @@
-.prevention__header {
-    background-image: url('../../assets/prevention.svg');
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-}
-
-.prevention__hero {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 12vh;
-    margin-left: 6.5vw;
-    display: flex;
-    flex-direction: column;
-}
-
-.prevention__first {
-    margin-top: 5vh;
-    font-size: 500%;
-    font-weight: 800;
-    word-spacing: 10px;
-}
-
-.prevention__second {
-    margin-top: 1vh;
-    font-size: 500%;
-    font-weight: 800;
-    word-spacing: 10px;
-}
-
-.prevention__third {
-    margin-top: 2vh;
-    font-size: 125%;
-    font-weight: 300;
-    word-spacing: 10px;
-    color: #FC9904;
-    width: 40vw;
-}
-
-.preventionInfo {
-    margin-top: 50px !important;
-}
-
-.prev {
-    width: 40px;
-    margin-left: 2px;
-}
-
-@media only screen and (max-width: 970px){
-    .prevention__first{
-        font-size: 450%;
+    .prevention__header {
+        background-image: url('../../assets/prevention.svg');
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
     }
-
-    .prevention__second{
-        font-size: 450%;
+    
+    .prevention__hero {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 12vh;
+        margin-left: 6.5vw;
+        display: flex;
+        flex-direction: column;
     }
-}
-
-@media only screen and (max-width: 860px){
-    .prevention__hero{
-        margin-left: 2vw;
-    }   
-
-    .prevention__first{
-        font-size: 400%;
+    
+    .prevention__first {
+        margin-top: 5vh;
+        font-size: 500%;
+        font-weight: 800;
+        word-spacing: 10px;
     }
-
-    .prevention__second{
-        font-size: 400%;
+    
+    .prevention__second {
+        margin-top: 1vh;
+        font-size: 500%;
+        font-weight: 800;
+        word-spacing: 10px;
     }
-
-    .prevention__third{
-        font-size: 110%;
-        width: 50vw;
+    
+    .prevention__third {
+        margin-top: 2vh;
+        font-size: 125%;
+        font-weight: 300;
+        word-spacing: 10px;
+        color: #FC9904;
+        width: 40vw;
     }
-}
-
-@media only screen and (max-width:600px){
-    .prevention__first{
-        font-size: 350%;
+    
+    .preventionInfo {
+        margin-top: 50px !important;
     }
-
-    .prevention__second{
-        font-size: 350%;
+    
+    .prev {
+        width: 40px;
+        margin-left: 2px;
     }
-
-    .prevention__third{
-        font-size: 100%;
-        width: 60vw;
+    
+    @media only screen and (max-width: 1050px) {
+        .prevention__header {
+            background-image: url('../../assets/prevention1000.svg');
+        }
     }
-}
-
-@media only screen and (max-width: 420px){
-    .prevention__first{
-        font-size: 370%;
+    
+    @media only screen and (max-width: 970px) {
+        .prevention__first {
+            font-size: 450%;
+        }
+        .prevention__second {
+            font-size: 450%;
+        }
     }
-
-    .prevention__second{
-        font-size: 370%;
+    
+    @media only screen and (max-width: 860px) {
+        .prevention__hero {
+            margin-left: 2vw;
+        }
+        .prevention__first {
+            font-size: 400%;
+        }
+        .prevention__second {
+            font-size: 400%;
+        }
+        .prevention__third {
+            font-size: 110%;
+            width: 50vw;
+        }
     }
-
-    .prevention__third{
-        font-size: 130%;
-        width: 90vw;
+    
+    @media only screen and (max-width: 650px) {
+        .prevention__header {
+            background-image: url('../../assets/prevention640.svg');
+        }
+        .prevention__hero {
+            margin-top: 4vh;
+            margin-left: 10vw;
+        }
+        .prevention__first {
+            font-size: 325%;
+        }
+        .prevention__second {
+            font-size: 325%;
+        }
+        .prevention__third {
+            font-size: 115%;
+            width: 75vw;
+        }
     }
-}
+    
+    @media only screen and (max-width:600px) {
+        .prevention__first {
+            font-size: 350%;
+        }
+        .prevention__second {
+            font-size: 350%;
+        }
+        .prevention__third {
+            font-size: 100%;
+            width: 60vw;
+        }
+    }
+    
+    @media only screen and (max-width: 420px) {
+        .prevention__first {
+            font-size: 370%;
+        }
+        .prevention__second {
+            font-size: 370%;
+        }
+        .prevention__third {
+            font-size: 130%;
+            width: 90vw;
+        }
+    }
+    
+    @media only screen and (max-width: 420px) {
+        .prevention__header {
+            background-image: url('../../assets/prevention360.svg');
+        }
+        .prevention__hero {
+            display: none;
+        }
+    }
