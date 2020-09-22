@@ -108,7 +108,7 @@ body {
 }
 
 .stats__navRight {
-    margin-top: 2vh;
+    margin-top: 1vh;
     margin-left: 40%;
     display: flex;
     justify-content: space-around;
@@ -151,26 +151,44 @@ body {
     .stats__navRight {
         margin-left: 0%;
     }
+    .stats__navRight {
+        font-size: 105%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .stats__logo {
+        font-size: 150%;
+    }
 }
 
 @media only screen and (max-width: 562px) {
     .stats__logo {
-        margin-left: 1%;
-        font-size: 125%;
+        margin-left: 0%;
+        font-size: 140%;
     }
     .stats__navRight {
-        font-size: 80%;
-        width: 250px;
+        width: 400px;
         margin-left: -2%;
     }
 }
 
-@media only screen and (max-width: 550px) {
+
+/* @media only screen and (max-width: 550px) {
     .stats__logo {
         font-size: 140%;
     }
     .stats__navRight {
-        font-size: 75%;
+        font-size: %;
+    }
+} */
+
+@media only screen and (max-width: 498px) {
+    .stats__logo {
+        font-size: 120%;
+    }
+    .stats__navRight {
+        font-size: 80%;
     }
 }
 

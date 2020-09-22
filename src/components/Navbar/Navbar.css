@@ -48,12 +48,16 @@
     border-bottom: 2px solid #F75868;
 }
 
+@media only screen and (max-width: 1038px) {
+    .nav__logo {
+        margin-left: -1%;
+        font-size: 190%;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .nav__logo {
         margin-left: -3%;
-    }
-    .navRight {
-        font-size: 90%;
     }
 }
 
@@ -68,7 +72,7 @@
 
 @media only screen and (max-width:670px) {
     .nav__logo {
-        margin-left: -10%;
+        margin-left: -5%;
     }
     .navRight {
         margin-left: -10%;
@@ -78,7 +82,7 @@
 @media only screen and (max-width: 650px) {
     .nav__logo {
         margin-left: 4%;
-        font-size: 175%;
+        font-size: 150%;
     }
     .navRight {
         margin-left: 0%;
@@ -92,9 +96,17 @@
         font-size: 140%;
     }
     .navRight {
-        font-size: 80%;
-        width: 250px;
+        width: 400px;
         margin-left: -2%;
+    }
+}
+
+@media only screen and (max-width: 498px) {
+    .nav__logo {
+        font-size: 120%;
+    }
+    .navRight {
+        font-size: 80%;
     }
 }
 

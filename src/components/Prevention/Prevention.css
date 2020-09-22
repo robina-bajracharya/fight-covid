@@ -97,29 +97,16 @@
         }
     }
     
-    @media only screen and (max-width:600px) {
+    @media only screen and (max-width: 630px) {
         .prevention__first {
-            font-size: 350%;
+            font-size: 280%;
         }
         .prevention__second {
-            font-size: 350%;
+            font-size: 280%;
         }
         .prevention__third {
             font-size: 100%;
-            width: 60vw;
-        }
-    }
-    
-    @media only screen and (max-width: 420px) {
-        .prevention__first {
-            font-size: 370%;
-        }
-        .prevention__second {
-            font-size: 370%;
-        }
-        .prevention__third {
-            font-size: 130%;
-            width: 90vw;
+            width: 65vw;
         }
     }
     

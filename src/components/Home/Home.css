@@ -229,15 +229,16 @@ footer {
         justify-content: space-around;
         list-style: none;
         text-align: center;
-        font-size: 90%;
+        font-size: 105%;
     }
 }
 
-@media only screen and (max-width: 1150px) {
+
+/* @media only screen and (max-width: 1150px) {
     .home__navBar {
         font-size: 80%;
     }
-}
+} */
 
 @media only screen and (max-width: 1090px) {
     .home__first {
@@ -245,7 +246,11 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 1038px) {
+    .home__navBar {
+        width: 400px;
+        margin-left: 0%;
+    }
     .home__first {
         width: 25vw;
     }
@@ -274,7 +279,7 @@ footer {
         margin-left: 4vw;
     }
     .home__navBar {
-        width: 40vw;
+        width: 400px;
     }
 }
 
@@ -300,17 +305,28 @@ footer {
     }
 }
 
+@media only screen and (max-width: 780px) {
+    .home__navBar {
+        width: 60vw;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     .home {
         background-image: url("../../assets/homepage640.svg");
     }
     .home__logo {
-        font-size: 140%;
+        font-size: 150%;
     }
     .home__navBar {
-        font-size: 80%;
-        width: 250px;
+        width: 400px;
         margin-left: -2%;
+    }
+}
+
+@media only screen and (max-width: 648px) {
+    .home__navBar {
+        width: 400px;
     }
 }
 
@@ -329,13 +345,40 @@ footer {
         font-size: 100%;
     }
     .home__navBar {
-        width: 60vw;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 562px) {
+    .home__logo {
+        margin-left: 1%;
+        font-size: 140%;
+    }
+    .home__navBar {
+        width: 400px;
+        margin-left: -2%;
+    }
+}
+
+@media only screen and (max-width: 498px) {
+    .home__logo {
+        font-size: 120%;
+    }
+    .home__navBar {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .home__first {
+        width: 50vw;
+        font-size: 110%;
     }
 }
 
 @media only screen and (max-width: 450px) {
     .home__first {
-        width: 40vw;
+        width: 55vw;
     }
     .home__second {
         font-size: 270%;
@@ -354,14 +397,13 @@ footer {
         font-size: 150%;
     }
     .home__navBar {
-        margin-left: 2%;
+        margin-left: 0%;
     }
     .home__navBar a {
         margin-left: 10px;
     }
     .home__first {
-        width: 50vw;
-        font-size: 150%;
+        width: 60vw;
     }
     .home__second {
         font-size: 320%;
